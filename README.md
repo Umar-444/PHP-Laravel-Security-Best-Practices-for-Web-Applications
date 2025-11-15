@@ -6,23 +6,58 @@ This repository provides comprehensive security best practices and examples for 
 
 ## 📚 Documentation
 
-### Core Security Guides
-- **[PHP Security Fundamentals](docs/PHP.md)** - Essential PHP security practices including input validation, XSS prevention, and secure authentication
-- **[Laravel Security Features](docs/Laravel.md)** - Laravel-specific security implementations and best practices
-- **[Secure Deployment Practices](docs/SecureDeployment.md)** - Production deployment security, server configuration, and monitoring
-- **[Common Vulnerabilities & Mitigations](docs/CommonVulnerabilities.md)** - OWASP Top 10 vulnerabilities and how to prevent them
-- **[Security Checklist](docs/Checklist.md)** - Comprehensive checklist for securing your PHP/Laravel applications
+### Version 1: Core Security Topics
+
+#### 🔐 **Secure Coding Basics**
+- **[What is Secure Coding?](docs/SecureCodingBasics.md)** - Understanding secure development principles and attack vectors
+- **[Secure vs Insecure Examples](examples/SecureVsInsecureExamples.php)** - Code examples showing vulnerable vs secure patterns
+
+#### 📝 **Input Handling & Validation**
+- **[Input Validation Guide](docs/InputHandling.md)** - Complete guide to input validation and sanitization
+- **[Input Validation Examples](examples/InputValidationExamples.php)** - Practical validation examples for PHP and Laravel
+
+#### 🗄️ **SQL Injection Prevention**
+- **[SQL Injection Prevention](docs/SQLInjectionPrevention.md)** - Comprehensive guide to preventing SQL injection attacks
+- **[SQL Injection Examples](examples/SQLInjectionExamples.php)** - Vulnerable vs secure database query examples
+
+#### 🔑 **Authentication & Password Security**
+- **[Authentication & Password Handling](docs/AuthenticationPasswordHandling.md)** - Complete authentication security guide
+- **[Secure Login System](examples/PHP/SecureLogin.php)** - Secure authentication implementation
+- **[Advanced Authentication Examples](examples/AuthenticationExamples.php)** - Password hashing, sessions, and multi-factor auth
+
+#### 📁 **File Upload Security**
+- **[File Upload Security Guide](docs/FileUploadSecurity.md)** - Secure file handling, validation, and storage
+- **[File Upload Security Examples](examples/FileUploadSecurityExamples.php)** - Secure upload implementation patterns
+
+#### ⚙️ **Secure Configuration**
+- **[Secure Configuration Guide](docs/SecureConfiguration.md)** - .env protection, debug mode, PHP security settings
+- **[Secure Configuration Examples](examples/SecureConfigurationExamples.php)** - Secure config and headers implementation
+
+#### 🛡️ **Advanced Security Topics**
+- **[Session Security](docs/SessionSecurity.md)** - Secure cookies, session ID regeneration, avoiding sensitive data storage
+- **[Session Security Examples](examples/SessionSecurityExamples.php)** - Secure session management patterns
+- **[CSRF Protection](docs/CSRFProtection.md)** - Prevent cross-site request forgery attacks
+- **[CSRF Protection Examples](examples/CSRFProtectionExamples.php)** - CSRF token implementation and validation
+- **[XSS Protection](docs/XSSProtection.md)** - Prevent cross-site scripting attacks
+- **[XSS Protection Examples](examples/XSSProtectionExamples.php)** - Output escaping and input sanitization
+- **[Secure Headers Guide](docs/SecureHeaders.md)** - X-Frame-Options, CSP, HSTS, and security headers
+
+### Additional Security Resources
+- **[PHP Security Fundamentals](docs/PHP.md)** - Essential PHP security practices
+- **[Laravel Security Features](docs/Laravel.md)** - Laravel-specific security implementations
+- **[Secure Deployment Practices](docs/SecureDeployment.md)** - Production deployment security
+- **[Common Vulnerabilities & Mitigations](docs/CommonVulnerabilities.md)** - OWASP Top 10 vulnerabilities
+- **[Security Checklist](docs/Checklist.md)** - Comprehensive security checklist
 
 ### Security Policy
 - **[Security Policy](SECURITY.md)** - Vulnerability reporting guidelines and supported versions
 
 ## 💻 Code Examples
 
-### PHP Examples
-- **[Secure Login System](examples/PHP/SecureLogin.php)** - Complete secure authentication implementation with session management
+### PHP Security Examples
 - **[Safe File Upload](examples/PHP/SafeUpload.php)** - Secure file upload handling with validation and malware protection
 
-### Laravel Examples
+### Laravel Security Examples
 - **[Security Headers Middleware](examples/Laravel/Middleware/SecureHeaders.php)** - Laravel middleware for implementing security headers
 - **[File Validation Guide](examples/Laravel/FileValidationExample.md)** - Comprehensive file upload validation for Laravel applications
 
