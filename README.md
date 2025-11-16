@@ -42,10 +42,17 @@ This repository provides comprehensive security best practices and examples for 
 - **[XSS Protection Examples](examples/XSSProtectionExamples.php)** - Output escaping and input sanitization
 - **[Secure Headers Guide](docs/SecureHeaders.md)** - X-Frame-Options, CSP, HSTS, and security headers
 
+#### 🔗 **API Security**
+- **[API Security Basics](docs/APISecurityBasics.md)** - API tokens, rate limiting, and safe JSON handling
+- **[API Security Examples](examples/APISecurityExamples.php)** - Complete API authentication and security implementation
+
+#### 🚀 **Deployment Security**
+- **[Secure Deployment Guide](docs/SecureDeployment.md)** - HTTPS, file permissions, firewall configuration, and production security
+- **[Secure Deployment Examples](examples/SecureDeploymentExamples.php)** - Deployment scripts, firewall configuration, and security automation
+
 ### Additional Security Resources
 - **[PHP Security Fundamentals](docs/PHP.md)** - Essential PHP security practices
 - **[Laravel Security Features](docs/Laravel.md)** - Laravel-specific security implementations
-- **[Secure Deployment Practices](docs/SecureDeployment.md)** - Production deployment security
 - **[Common Vulnerabilities & Mitigations](docs/CommonVulnerabilities.md)** - OWASP Top 10 vulnerabilities
 - **[Security Checklist](docs/Checklist.md)** - Comprehensive security checklist
 
